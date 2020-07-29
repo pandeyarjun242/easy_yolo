@@ -1,20 +1,22 @@
-# Easy_Yolo - One liner Yolov3 object detection
+## Easy_Yolo - One liner Yolov3 object detection
 
-Running on YOLO model on an image. Place .cfg, .weights and .names in same directory
+# Running on YOLO model on an image. Place .cfg, .weights and .names in same directory
 
 Sample:
 from easy_yolo.yolo_img import YoloImg
+
+
 x = YoloImg('example.jpg', 'example.weights', 'example.cfg',example.names)
 x.run_model()
 
-Running on YOLO model on a video. Place .cfg, .weights and .names in same directory
+# Running on YOLO model on a video. Place .cfg, .weights and .names in same directory
 
 Sample:
 from easy_yolo.yolo_vid import Yolov3Video
 x = Yolov3Video('example.mp4', 'example.weights', 'example.cfg',example.names)
 x.run_model()
 
-Running on YOLO model on a webcam. Place .cfg, .weights and .names in same directory
+# Running on YOLO model on a webcam. Place .cfg, .weights and .names in same directory
 
 Sample:
 from easy_yolo.yolo_cam import Yolov3Camera
