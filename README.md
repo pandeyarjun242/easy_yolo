@@ -4,9 +4,9 @@
 
 Sample:
 from easy_yolo.yolo_img import YoloImg
-
 <br>
 x = YoloImg('example.jpg', 'example.weights', 'example.cfg',example.names)
+<br>
 x.run_model()
 
 # Running on YOLO model on a video.
@@ -29,7 +29,7 @@ For webcam:
 x = Yolov3Camera(0, 'example.weights', 'example.cfg',example.names)
 <br>
 x.run_model()
-
+<br><br>
 For Youtube Livestream:
 <br>
 x = Yolov3Camera('youtube_url', 'example.weights', 'example.cfg',example.names)
