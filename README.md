@@ -76,7 +76,7 @@ About Yolo-Auto
 
 * [Python](https://www.python.org/)
 * [Darknet](https://pjreddie.com/darknet/)
-* [OpenCV](https://opencv.org/
+* [OpenCV](https://opencv.org/)
 
 
 
@@ -113,7 +113,7 @@ For Images:
 ```sh
 from easy_yolo.yolo_img import YoloImg
 
-x = YoloImg('example.jpg', 'example.weights', 'example.cfg',example.names)
+x = YoloImg('example.jpg', 'example.weights', 'example.cfg','example.names')
 
 x.run_model()
 
@@ -124,7 +124,7 @@ For Videos:
 ```sh
 from easy_yolo.yolo_vid import Yolov3Video
 
-x = Yolov3Video('example.mp4', 'example.weights', 'example.cfg',example.names)
+x = Yolov3Video('example.mp4', 'example.weights', 'example.cfg','example.names')
 
 x.run_model()
 ```
@@ -135,7 +135,7 @@ For Live Camera:
 ```sh
 from easy_yolo.yolo_cam import Yolov3Camera
 
-x = Yolov3Camera(0, 'example.weights', 'example.cfg',example.names)
+x = Yolov3Camera(0, 'example.weights', 'example.cfg','example.names')
 
 x.run_model()
 ```
@@ -148,7 +148,7 @@ Then:
 ```sh
 from easy_yolo.yolo_cam import Yolov3Camera
 
-x = Yolov3Camera('youtube_url', 'example.weights', 'example.cfg',example.names)
+x = Yolov3Camera('youtube_url', 'example.weights', 'example.cfg','example.names')
 
 x.run_model()
 ```
